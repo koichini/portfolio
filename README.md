@@ -1,3 +1,10 @@
+# Portfolio
+
+### `npm run deploy`
+
+Github Pages へデプロイ
+[https://koichini.github.io/portfolio/](https://koichini.github.io/portfolio/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
