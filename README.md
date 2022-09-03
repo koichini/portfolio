@@ -1,5 +1,10 @@
 # Portfolio
 
+### 参考サイト
+
+- [React Doc&tutorial](https://ja.reactjs.org/docs/getting-started.html)
+- [サバイバル TypeScript](https://typescriptbook.jp/)
+
 ### `npm run deploy`
 
 Github Pages に deploy する。  
