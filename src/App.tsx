@@ -1,10 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import SetLink from './components/SetLink';
 
 function App() {
   return (
     <Router>
       <div>
+        <SetLink page="http://www.facebook.com" children="test" />
         <nav>
           <ul>
             <li>
