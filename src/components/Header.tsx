@@ -1,9 +1,13 @@
 import { useState } from 'react';
+import Nav from './Nav';
 import logo from '../logo.svg';
 
 function Header() {
   return (
       <header className="App-header">
+        <h3>Nav area</h3>
+        <Nav />
+        <h3>list Items</h3>
         <ul>{listItems}</ul>
         <img src={logo} className="App-logo" alt="logo" />
         <LikeButton />
