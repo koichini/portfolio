@@ -1,19 +1,16 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
-    <BrowserRouter>
-      <ul>
-        <li>
-          <Route path="/"><Home /></Route>
-        </li>
-      </ul>
-    </BrowserRouter>
+    <ul>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/About">About</Link>
+      </li>
+    </ul>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
 }
 
 export default Nav;
