@@ -5,17 +5,30 @@ function App() {
   return (
     <Router>
       <div>
-        <SetLink page="http://www.facebook.com" children="test" />
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+        <nav className="d-flex justify-content-between">
+          <div className="logo">
+            <SetLink page="#" children="logo"></SetLink>
+          </div>
+          <ul className="nav">
+            <li className="nav-item">
+              <Link to="/" className="nav-link" aria-current="true">
+                Home
+              </Link>
             </li>
-            <li>
-              <Link to="/about">About</Link>
+            <li className="nav-item">
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
             </li>
-            <li>
-              <Link to="/users">Users</Link>
+            <li className="nav-item">
+              <Link to="/users" className="nav-link">
+                Users
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link disabled" aria-details="true">
+                blank
+              </Link>
             </li>
           </ul>
         </nav>
