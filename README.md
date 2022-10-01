@@ -1,10 +1,14 @@
 # Portfolio
 
 ### 参考サイト
-[イマココ参考にしてる](https://ja.reactjs.org/docs/lists-and-keys.html)  
+
+イマココ参考にしてる
+
+- [React ベストプラクティスの宝庫！「bulletproof-react」が勉強になりすぎる件](https://zenn.dev/meijin/articles/bulletproof-react-is-best-architecture)より[このリポジトリ](https://github.com/alan2207/bulletproof-react)
+- BASE
 - [React Doc&tutorial](https://ja.reactjs.org/docs/getting-started.html)
 - [サバイバル TypeScript](https://typescriptbook.jp/)
-- [React Routerの参考](https://reffect.co.jp/react/react-router)
+- [React Router の参考](https://reffect.co.jp/react/react-router)
 
 ### `npm run deploy`
 
