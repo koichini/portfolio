@@ -5,7 +5,7 @@ const STATUS = {
   NORMAL: 'normal',
 };
 
-function SetLink({page, children}: {page: any, children: any}) {
+function SetLink({ page, children }: { page: any; children: any }) {
   const [status, setStatus] = useState(STATUS.NORMAL);
 
   const onMouseEnter = () => {
@@ -16,10 +16,10 @@ function SetLink({page, children}: {page: any, children: any}) {
   const onMouseLeave = () => {
     console.log('mouse leave');
     setStatus(STATUS.NORMAL);
-  }
+  };
 
   return (
-    <a 
+    <a
       className={status}
       href={page || '#'}
       onMouseEnter={onMouseEnter}
@@ -31,3 +31,4 @@ function SetLink({page, children}: {page: any, children: any}) {
 }
 
 export default SetLink;
+
